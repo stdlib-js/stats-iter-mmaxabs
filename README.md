@@ -61,7 +61,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.itermmaxabs;
+})();
 })();
 </script>
 ```
@@ -127,6 +129,7 @@ m = it.next().value; // [3.0, -7.0, -5.0]
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmaxabs@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 // Create an iterator for generating uniformly distributed pseudorandom numbers:
 var rand = runif( -10.0, 10.0, {
@@ -149,6 +152,7 @@ while ( true ) {
     }
 }
 
+})();
 })();
 </script>
 </body>
@@ -256,11 +260,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats-iter-maxabs/tree/umd
+[@stdlib/stats/iter/maxabs]: https://github.com/stdlib-js/stats-iter-maxabs/tree/umd/tree/umd
 
-[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax/tree/umd
+[@stdlib/stats/iter/mmax]: https://github.com/stdlib-js/stats-iter-mmax/tree/umd/tree/umd
 
-[@stdlib/stats/iter/mminabs]: https://github.com/stdlib-js/stats-iter-mminabs/tree/umd
+[@stdlib/stats/iter/mminabs]: https://github.com/stdlib-js/stats-iter-mminabs/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
