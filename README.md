@@ -157,9 +157,9 @@ while ( true ) {
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/stats/iter/maxabs`][@stdlib/stats/iter/maxabs]</span><span class="delimiter">: </span><span class="description">compute the maximum absolute value of all iterated values.</span>
--   <span class="package-name">[`@stdlib/stats/iter/mmax`][@stdlib/stats/iter/mmax]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving maximum value.</span>
--   <span class="package-name">[`@stdlib/stats/iter/mminabs`][@stdlib/stats/iter/mminabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving minimum absolute value.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/maxabs`][@stdlib/stats/iter/maxabs]</span><span class="delimiter">: </span><span class="description">compute the maximum absolute value of all iterated values.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/mmax`][@stdlib/stats/iter/mmax]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving maximum value.</span>
+-   <span class="package-name">[`@stdlib/stats-iter/mminabs`][@stdlib/stats/iter/mminabs]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes a moving minimum absolute value.</span>
 
 </section>
 
