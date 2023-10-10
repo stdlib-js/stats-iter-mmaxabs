@@ -52,6 +52,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+itermmaxabs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmaxabs@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-iter-mmaxabs/tags). For example,
+
+```javascript
 itermmaxabs = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmaxabs@v0.1.1-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var itermmaxabs = require( 'path/to/vendor/umd/stats-iter-mmaxabs/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmaxabs@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmaxabs@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -135,7 +140,7 @@ m = it.next().value; // [3.0, -7.0, -5.0]
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmaxabs@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-iter-mmaxabs@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
