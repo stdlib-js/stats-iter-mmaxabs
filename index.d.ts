@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Iterator } from '@stdlib/types/iter';
 
 /**
-* Create an iterator which iteratively computes a moving maximum absolute value.
+* Returns an iterator which iteratively computes a moving maximum absolute value.
 *
-* @module @stdlib/stats-iter-mmaxabs
+* ## Notes
+*
+* -   The `W` parameter defines the number of iterated values over which to compute the moving maximum absolute value.
+* -   As `W` values are needed to fill the window buffer, the first `W-1` returned values are calculated from smaller sample sizes. Until the window is full, each returned value is calculated from all previously iterated values.
+* -   If an environment supports `Symbol.iterator`, the returned iterator is iterable.
+*
+* @param iterator - input iterator
+* @param W - window size
+* @throws second argument must be a positive integer
+* @returns iterator
 *
 * @example
 * var runif = require( '@stdlib/random-iter-uniform' );
-* var itermmaxabs = require( '@stdlib/stats-iter-mmaxabs' );
 *
 * var rand = runif( -10.0, 10.0, {
 *     'iter': 100
@@ -44,12 +56,9 @@
 *
 * // ...
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function itermmaxabs( iterator: Iterator, W: number ): Iterator;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = itermmaxabs;
